@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  display: block;
+  position: absolute;
+
+  left: 150px;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  position: relative;
+  left: 550px;
+}
+#chance-remaining {
+  font-size: large;
+  color: #d92424;
+}
+#score,#image-count {
+  color: #d92424;
+}
+
+#hint {
+  font-size: large;
+}
+
+#quiz-container {
+  display: flex;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#left-panel,
+#right-panel {
+  font-size: larger;
+}
+
+#left-panel {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#right-panel {
+  width: 34%;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#final-score {
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 150px;
+  left: 550px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgb(91, 91, 194);
+}
+
+#country-image {
+  width: 450px;
+  height: 350px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+#error-message {
+  color: red;
+}
+#success-message {
+  color: green;
+}
+#hint-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #d92424;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+#submit-button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+#answer {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+#restart-button {
+  padding: 10px 20px;
+  background-color: #d92424;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+#answer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Voyage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quiz Pays</h1>
+    <div id="quiz-container">
+        <div id="left-panel">
+            <img id="country-image" src="" alt="Image du pays">
+            <button id="hint-button">Clicker pour avoir une indice</button>
+            <p id="hint"></p>
+            <form id="answer-form">
+                <input type="text" id="answer" placeholder="Votre réponse"><br>
+                <button id="submit-button" type="submit">Valider</button>
+                <p id="error-message"></p>
+                <p id="success-message"></p>
+                
+            </form>
+        </div>
+        <div id="right-panel">
+            <p>Score: <span id="score">0</span></p>
+            <p>Images passées: <span id="image-count">0</span> / 10</p>
+            <P id="chance-remaining">Total chances: 3 </P>
+            
+        </div>
+    </div>
+    <div id="final-score" >
+        <h1>Score final: <span id="final-score-value"></span></h1>
+        <button id="restart-button">Recommencer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
